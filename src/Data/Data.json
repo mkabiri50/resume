@@ -1,0 +1,85 @@
+{
+    "title": {
+        "name": "MAHDI",
+        "job": "front-end web developer || mechanical engineer",
+        "items": {
+            "github": "https://github.com/mkabiri50",
+            "stackoverflow": "https://stackoverflow.com/story/mkabiri",
+            "linkedin": "https://linkedin.com/in/mehdi-kabiri-samani",
+            "email": "mailto: mkabiri50@yahoo.com>Send Email>"
+        }
+    },
+    "about": {
+        "type": "p",
+        "content": "My name is  mahdi Kabiri Samani 31 years old from Iran . I have a bunch of college degree in mechanical engineering but  i've fell in love with web developing since almost 3 years ago  and i started to learn that by myself.  I belive that if you have enough passionate inerest and greate perseverance, selfe-study is certainly more effective than traditional education.  my special expertise is react-js and to achive that i learned a lot of things such as Html.5, CSS, JavaScript, git, redux,... . I'm  passionate to my woek an always try to keep in touch with the latest informations and technics about react and web developing . "
+    },
+    "education": {
+        "degree-1": "Master of Mechanical Engineering (Solid Mechanics and Design), Iran, 2013-2018",
+        "degree-2": "Bachelor’s degree , thermos-fluid Engineering, Iran, 2017-2018",
+        "degree-3": "Bachelor’s degree BioMechanical Engineering, Iran, 2006-2010"
+    },
+    "poblication": {
+        "Article 1": "Simulation of fluid effect on vibration of piezoelectric microcantilever in AFM application. 3th national Conference and 1th international conference on applied research in Electrical, Mechanical and Mechatronics Engineering, Tehran, Iran, 2016",
+        "Article 2": "Sensitivity Analysis of  affecting factors on  Discontinuous piezoelectric  micro cantilever, The First National Conference of Mechanical and Mechateronics Engineering, ,Shahr-e-kord, Iran, 2016",
+        "Article 3": "Sensitivity Analysis of  affecting factors on  Discontinuous piezoelectric  micro cantilever, The First National Conference of Mechanical and Mechateronics Engineering, ,Shahr-e-kord, Iran, 2016"
+    },
+    "skills": [{
+            "title": "HTML",
+            "image": "html.png",
+            "percent": "100"
+        },
+        {
+            "title": "CSS",
+            "image": "css.png",
+            "percent": "90"
+        },
+        {
+            "title": "Java Script",
+            "image": "js.png",
+            "percent": "100"
+        },
+        {
+            "title": "React js",
+            "image": "react.png",
+            "percent": "100"
+        },
+        {
+            "title": "React Native",
+            "image": "reactnative.png",
+            "percent": "50"
+        },
+        {
+            "title": "Redux",
+            "image": "redux.png",
+            "percent": "100"
+        },
+        {
+            "title": "Node js",
+            "image": "nodejs.png",
+            "percent": "30"
+        },
+        {
+            "title": "git",
+            "image": "git.png",
+            "percent": "70"
+        }
+    ],
+    "theme": {
+        "background": [
+            "winter.jpg",
+            " markus-spiske-gcgves5H_Ac-unsplash.jpg"
+        ],
+        "color": [
+            "blueviolet",
+            "brown",
+            "blue",
+            "coral",
+            "darkred",
+            "deeppink",
+            "gold",
+            "olive",
+            "black",
+            "lime"
+        ]
+    }
+}

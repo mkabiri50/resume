@@ -1,0 +1,15 @@
+.NavBarItem{
+    margin:auto;
+    padding: 10px;
+   color: rgb(242, 248, 244);
+    display:inline-flex;
+}
+.NavBarItem a{
+    
+    font-family: 'Courier New', Courier, monospace;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}

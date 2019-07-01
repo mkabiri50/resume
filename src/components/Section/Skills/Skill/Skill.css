@@ -1,0 +1,64 @@
+.Skill{
+    border-radius: 50%;
+    background-color: rgb(226, 253, 253);
+    height: 150px;
+    width: 150px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin: 40px;  
+
+ }
+.Skill h1{
+    align-self: center;
+    justify-self: center;
+}
+.Image{
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+}
+.Titr{
+    font-family: 'Lemon', cursive;;
+    padding: auto 100px;
+}
+
+.Container{
+        /* border: px solid rgb(2, 0, 0);
+        border-radius: 50%;
+        color: antiquewhite;
+        height: 20px;
+        width: 90%;
+        box-sizing: border-box; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-around;
+        height: 100%;
+      
+    
+            }
+
+.Expertise{
+                border:"1px solid orange";
+                border-radius: 50%;
+            }
+
+
+            circle {
+                fill: white;
+                stroke: black;
+                stroke-width: 8;
+                stroke-dasharray: 282.5;
+                stroke-dashoffset: 1000;
+                animation: rotate 5s linear ;
+              }
+          
+              @keyframes rotate {
+                to {
+                  stroke-dashoffset: 0;
+                }
+              }
+          
