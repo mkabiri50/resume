@@ -2,6 +2,8 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import FullPage from '../../FullPage/FullPage';
 import data from '../../../Data/Data.json';
+import Scroll from '../../Scroll/Scroll';
+import ScrollTop from 'react-scrolltop-button';
 import './Title.css';
 
 
@@ -26,7 +28,18 @@ const Title = (props) => {
                 <div className='IconContainer'>
                     {mapLinks}
                 </div>
-
+                <ScrollTop 
+                  text="up"
+                  distance={100}
+                  breakpoint={768}
+                  style={{ backgroundColor: "red"}}
+                  className="scroll-your-role"
+                  speed={1000}
+                  target={75}
+                 />;
+                <Scroll link="About" >
+                    <img style={{ position: "absolute", width: 30, bottom: 20 }} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                </Scroll>
             </div>
         </FullPage>
 

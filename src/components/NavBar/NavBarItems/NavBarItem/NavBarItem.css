@@ -1,15 +1,42 @@
 .NavBarItem{
-    margin:auto;
-    padding: 10px;
-   color: rgb(242, 248, 244);
-    display:inline-flex;
+    margin:10px o;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
 }
 .NavBarItem a{
     
-    font-family: 'Courier New', Courier, monospace;
-
+    color: #8f5c2c;
     text-decoration: none;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    display:block;
+    padding: 10px 0;
+}
+.NavBarItem a:hover,
+.NavBarItem a:active,
+.NavBarItem a.active{
+   
+    color: #40a4cb;
+    
+}
+@media (min-width :500px){
+    .NavBarItem{
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+    .NavBarItem a {
+        color: white;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;   
+    }
+    .NavBarItem a:hover,
+    .NavBarItem a:active,
+    .NavBarItem a.active{
+        background-color: #e3e5e6;
+    }
 }

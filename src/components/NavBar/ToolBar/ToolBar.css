@@ -4,7 +4,7 @@
     position: fixed;
     top:0;
     left: 0;
-    background-color:rgba(1, 1, 1, .5);
+    background-color:rgba(109, 109, 109, 0.5);
     display: flex;
     justify-content:space-between ;
     align-items:center;
@@ -12,13 +12,8 @@
     z-index: 90;
     box-sizing: border-box;
 }
-.Toolbar nav{
-    height: 100%;
-    text-align: center;
-}
-.Logo{
-    height: 80%;  
-}
+
+
 @media(max-width:499px){
     .DesktopOnly{
         display: none;

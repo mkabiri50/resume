@@ -19,7 +19,7 @@ const Skills = (props) => {
         <FuulPage>
             <div  className='Skills' style={{color:props.color}}>
                 <h1 style={{margin:50}}>Skills</h1>
-                <div className ='Skills'> 
+                <div className ='Percents'> 
                 {skillData} 
                 </div>
                 

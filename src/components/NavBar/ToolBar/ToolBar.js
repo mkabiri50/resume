@@ -7,7 +7,7 @@ const ToolBar =(props)=>{
  
         return (
             <div className='Toolbar'>
-                <button onClick={props.chsngeColor}></button>
+                <button className="Btn" onClick={props.chsngeColor}></button>
                 <NavBarItems color ={props.color} />
             </div>
         );

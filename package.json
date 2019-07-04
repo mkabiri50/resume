@@ -11,6 +11,7 @@
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.12",
     "react-scroll-to-component": "^1.0.2",
+    "react-scrolltop-button": "^0.1.6",
     "react-snowstorm": "0.0.3",
     "reactjs-percentage-circle": "^1.0.0",
     "reactstrap": "^8.0.0"
