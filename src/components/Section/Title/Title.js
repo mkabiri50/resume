@@ -16,7 +16,8 @@ const Title = (props) => {
                 className='Icon'
                 url={data.title.items[link]}
                 bgColor={props.color}
-                style={{ height: 40, width: 40, margin: 15 }} />
+                // style={{ height: 40, width: 40, margin: 15 }} 
+                />
         )
     });
 
@@ -30,15 +31,9 @@ const Title = (props) => {
                 </div>
                 <ScrollTop 
                   text="up"
-                  distance={100}
-                  breakpoint={768}
-                  style={{ backgroundColor: "red"}}
-                  className="scroll-your-role"
-                  speed={1000}
-                  target={75}
                  />;
                 <Scroll link="About" >
-                    <img style={{ position: "absolute", width: 30, bottom: 20 }} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                    <img style={{ position: "absolute", width: 30, bottom: 0 }} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
                 </Scroll>
             </div>
         </FullPage>

@@ -4,6 +4,7 @@ import FullPage from '../../FullPage/FullPage';
 import data from '../../../Data/Data.json';
 import Scroll from '../../Scroll/Scroll';
 
+
 const Degrees = (props) => {
     const degArr = [];
     for (let i in data.education) {
@@ -33,20 +34,13 @@ const Degrees = (props) => {
     return (
         <FullPage>
             <div className='Degrees' style={{ color: props.color }}>
-                <div className='Degree-Section' >
-                    <img style={{ widgh: 200, height: 100 }} src={require("../../../images/logos/ed.jpeg")} alt="Education and training" />
-                    <div className="Degree-Content">
-                        {mapDeg}
-                    </div>
-
-                </div>
-                <div className='Article-Content' >
-                    <h3>ACADEMIC PUBLICATION</h3>
-                    {mapArt}
-                </div>
-                <Scroll link= "Skills" >
-                <img style={{position: "relative", width: 30, marginBottom:-20}} src= {require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
-              </Scroll>
+                <img className='Logo' src={require("../../../images/logos/ed.jpeg")} alt="Education and training" />
+                {mapDeg}
+                <h5>ACADEMIC PUBLICATION</h5>
+                {mapArt}
+                <Scroll link="Skills" >
+                    <img style={{ position: "relative", width: 30, bottum: 0 }} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                </Scroll>
             </div>
 
         </FullPage >

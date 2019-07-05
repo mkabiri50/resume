@@ -1,13 +1,12 @@
 .Skill{
     border-radius: 50%;
     background-color: rgb(226, 253, 253);
-    height: 150px;
-    width: 150px;
+    width: 15%;
      display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-margin: 40px;  
+margin: 2%;  
 
  }
 .Skill h1{
@@ -15,26 +14,32 @@ margin: 40px;
     justify-self: center;
 }
 .Image{
-    height: 30px;
-    width: 30px;
+    /* height: 30px;
+    width: 30px; */
+    height: 20%;
     margin: 0 20px;
 }
 .Titr{
     font-family: 'Lemon', cursive;;
     padding: auto 100px;
+    font-size: 60%;
+}
+@media(max-width:499px){
+    .Titr{
+        display: none;
+    }
+    .Image{
+        position: relative;
+        top:-20%;
+    }
 }
 
 .Container{
-        /* border: px solid rgb(2, 0, 0);
-        border-radius: 50%;
-        color: antiquewhite;
-        height: 20px;
-        width: 90%;
-        box-sizing: border-box; */
+
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-content: space-between;
+        align-content: space-around;
         justify-content: space-around;
         height: 100%;
       

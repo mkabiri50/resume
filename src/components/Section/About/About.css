@@ -8,4 +8,13 @@
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
+    padding: 2%;
+    font-size: 80%;
+    padding-top: 10%;
+}
+.DownLink{
+    position: absolute;
+    bottom:0 ;
+    width: 7%;
+    
 }
