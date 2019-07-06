@@ -10,7 +10,9 @@ const ToolBar = (props) => {
         <div className='Toolbar'>
             <DrawerToggle clicked={props.drawerToggleclicked} />
             <button style={{ backgroundColor: props.color }} className="Btn" onClick={props.chsngeColor}>Click me</button>
+            <nav className="DesktopOnly">
             <NavBarItems color={props.color} />
+            </nav>
         </div>
     );
 

@@ -6,7 +6,7 @@
 }
 .NavBarItem a{
     
-    color: #8f5c2c;
+  
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
@@ -29,7 +29,6 @@
         align-items: center;
     }
     .NavBarItem a {
-        color: white;
         height: 100%;
         padding: 16px 10px;
         border-bottom: 4px solid transparent;   

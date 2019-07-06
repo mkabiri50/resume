@@ -1,15 +1,14 @@
-.NavBarItems{
-   padding: 0;
+.NavBarItems {
    margin: 0;
-   
+   padding: 0;
+   list-style: none;
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-content: center;
- 
+   flex-flow: row;
+   align-items: center;
+   height: 100%;
 }
-@media(max-width:499px){
+@media(max-width:500px){
    .NavBarItems{
-       display: none;
+       flex-flow: column;
    }
 }

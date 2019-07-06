@@ -33,4 +33,10 @@
     transform: translateY(4px);
   }
 
+@media(max-width:499px){
+    .DesktopOnly{
+        display: none;
+    }
+}
+
 

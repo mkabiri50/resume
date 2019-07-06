@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBarItems from '../NavBarItems/NavBarItems'
-import './SideDrawer.css';
 import Bachdrop from '../../Backdrop/Backdrop';
+import './SideDrawer.css';
 const sideDrawer = (props) => {
-    let attachedClasses = [classes.SideDrawer, classes.Close];
+    let attachedClasses = ["SideDrawer","Close"];
     if (props.open) {
-        attachedClasses = [classes.SideDrawer, classes.Open]
+        attachedClasses = ["SideDrawer","Open"]
     }
 
     return (
@@ -14,13 +14,10 @@ const sideDrawer = (props) => {
             <div className={attachedClasses.join(' ')}
                 onClick={props.closed}>
                 <nav>
-                    <NavBarItems/>
+                    <NavBarItems color={props.color} />
                 </nav>
             </div>
         </div>
-
-
-
     )
 }
 export default sideDrawer;
