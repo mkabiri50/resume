@@ -12,6 +12,7 @@
  justify-content: space-between;
 align-content: space-around;
 position: relative;
+z-index: -2;
  
 }
 .College{
@@ -24,6 +25,7 @@ position: relative;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .Article{
   width: 100%;
@@ -35,6 +37,7 @@ position: relative;
   top:60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 } 
 .DownIcon-3{
 position: absolute;

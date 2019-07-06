@@ -9,6 +9,7 @@
     justify-content:space-between;
     align-items: center;
     position: relative;
+    z-index: -2;
 }
 .About-Comtent{
     width: 100%;
@@ -17,6 +18,7 @@ position: absolute;
 top:5%;
 left:2%;
 padding: 20px;
+z-index: -1;
 }
 .DownIcon-2{
     position: absolute;
