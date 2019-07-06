@@ -8,10 +8,13 @@ const About = (props) => {
     return (
         <FullPage>
             <div className='About' style={{ color: props.color }}>
-                <h1>About:</h1>
+               <div className='About-Comtent'>
+               <h1>About:</h1>
                 <p> {data.about.content}  </p>
+               </div>
+               
                 <Scroll link="Degrees" >
-                    <img style={{ position: "relative", width: 30, bottom: 0 }} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                    <img className='DownIcon-2' src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
                 </Scroll>
             </div>
 

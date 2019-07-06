@@ -34,12 +34,18 @@ const Degrees = (props) => {
     return (
         <FullPage>
             <div className='Degrees' style={{ color: props.color }}>
-                <img className='Logo' src={require("../../../images/logos/ed.jpeg")} alt="Education and training" />
-                {mapDeg}
-                <h5>ACADEMIC PUBLICATION</h5>
+               
+               <div className='College'>
+               <img style ={{height:100}} src={require("../../../images/logos/ed.jpeg")} alt="Education and training" />
+               {mapDeg}
+               </div>
+               <div className='Article'>
+               <h5>ACADEMIC PUBLICATION</h5>
                 {mapArt}
+               </div>
+              
                 <Scroll link="Skills" >
-                    <img style={{ position: "relative", width: 30, bottum: 0 }} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                    <img className='DownIcon-3' src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
                 </Scroll>
             </div>
 
