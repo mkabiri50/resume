@@ -45,10 +45,10 @@ const Degrees = (props) => {
                </div>
               
                 <Scroll link="Skills" >
-                    <img className='DownIcon-3' src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                    <img style={{width:30, margin:10,justifyItems:'center'}} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
                 </Scroll>
-            </div>
-
+         
+                </div>
         </FullPage >
 
 

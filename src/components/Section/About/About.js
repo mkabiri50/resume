@@ -14,7 +14,7 @@ const About = (props) => {
                </div>
                
                 <Scroll link="Degrees" >
-                    <img className='DownIcon-2' src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                    <img style={{width:30, margin:10}} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
                 </Scroll>
             </div>
 
