@@ -33,7 +33,7 @@ const Title = (props) => {
                   text="up"
                  />;
                 <Scroll link="About" >
-                    <img style={{width:30, margin:10, position:'absolute',bottom:0}} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
+                    <img style={{width:30, marginBottom:10, position:'absolute',bottom:0, textAlign:'center'}} src={require('../../../images/logos/drop-down-round-button.png')} alt="down btn" />
                 </Scroll>
             </div>
         </FullPage>

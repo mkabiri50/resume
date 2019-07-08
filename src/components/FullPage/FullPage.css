@@ -7,6 +7,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Lemon', cursive;
    
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Muli', sans-serif; */
+    /* font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'Varela Round', sans-serif; */
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Righteous', cursive;
+    /* font-family: 'Great Vibes', cursive; */
+  
 }
